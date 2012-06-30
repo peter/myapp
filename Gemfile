@@ -1,11 +1,14 @@
 source 'https://rubygems.org'
 
+ruby '1.9.3'
+
 gem 'rails',     github: 'rails/rails'
 gem 'journey',   github: 'rails/journey'
 gem 'arel',      github: 'rails/arel'
 gem 'active_record_deprecated_finders', github: 'rails/active_record_deprecated_finders'
 
 gem 'pg'
+gem 'thin'
 
 # Gems used only for assets and not required
 # in production environments by default.
